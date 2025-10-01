@@ -1,0 +1,47 @@
+[
+    {
+        "icon": "arxiv",
+        "name": "Paper",
+        "link": "https://arxiv.org/abs/2401.10171",
+        "styling": {
+            "includeInHeader": true,
+            "includeInStickyHeader": true
+        }
+    },
+    {
+        "icon": "github",
+        "name": "Code (coming soon)",
+        "link": "",
+        "styling": {
+            "includeInHeader": true,
+            "includeInStickyHeader": false
+        }
+    },
+    {
+        "icon": "youtube",
+        "name": "Video",
+        "link": "https://youtu.be/r9XeDUGHZJ0",
+        "styling": {
+            "includeInHeader": true,
+            "includeInStickyHeader": false
+        }
+    },
+    {
+        "icon": "results",
+        "name": "Results",
+        "link": "#Results",
+        "styling": {
+            "includeInHeader": true,
+            "includeInStickyHeader": true
+        }
+    },
+    {
+        "icon": "bibtex",
+        "name": "Cite",
+        "link": "#Citation",
+        "styling": {
+            "includeInHeader": true,
+            "includeInStickyHeader": true
+        }
+    }
+]

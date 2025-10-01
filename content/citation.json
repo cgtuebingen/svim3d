@@ -1,0 +1,17 @@
+{
+    "type": "inproceedings",
+    "name": "engelhardt2025-svim3d",
+    "authors": [
+        ["Andreas", "Engelhardt"],
+        ["Mark", "Boss"],
+        ["Vikram", "Voleti"],
+        ["Hendrik P.A.", "Lensch"],
+        ["Varun", "Jampani"]
+    ],
+    "title": "{SViM3D}: Stable Video Material Diffusion for Single Image 3D Generation",
+    "booktitle": "ICCV",
+    "year": 2025,
+    "eprint": "{}",
+    "archivePrefix": "{}",
+    "primaryClass": "{}"
+}

@@ -1,0 +1,75 @@
+{
+    "teaser": {
+        "name": "Teaser",
+        "type": "image",
+        "urls": [
+            "images/teaser.jpg"
+        ],
+        "styling": {
+            "roundedCorners": true,
+            "objectFit": "contain"
+        }
+    },
+    "pipeline": {
+        "name": "Pipeline",
+        "type": "image",
+        "urls": [
+            "images/pipeline_figure_v05.jpg"
+        ],
+        "styling": {
+            "roundedCorners": true,
+            "objectFit": "contain"
+        }
+    },
+    "results_multi_view": {
+        "name": "Multi-view Materials",
+        "type": "video",
+        "urls": [
+            "videos/svim3d_overview_video_v006_results_chairs.mp4"
+        ],
+        "styling": {
+            "roundedCorners": true,
+            "showControls": false,
+            "objectFit": "contain"
+        }
+    },
+    "svim3d_2d_relighting": {
+        "name": "Application 2D Relighting",
+        "type": "video",
+        "urls": [
+            "videos/svim3d_overview_video_v006_website_relighting2D.mp4"
+        ],
+        "styling": {
+            "roundedCorners": true,
+            "showControls": false,
+            "objectFit": "contain"
+        }
+    },
+    "svim3d_material_video": {
+        "name": "Material Video Generation",
+        "type": "video",
+        "urls": [
+            "videos/website_generation.mp4"
+        ],
+        "styling": {
+            "roundedCorners": true,
+            "showControls": false,
+            "objectFit": "contain"
+        }
+    },
+    "shinobi_scene_material_editing": {
+        "name": "Application Material Editing",
+        "type": "swappable_video",
+        "urls": [
+            "videos/shinobi_material_editing0_v05_compressed.mp4",
+            "videos/shinobi_material_editing1_v05_compressed.mp4"
+        ]
+    },
+    "overview": {
+        "name": "Overview",
+        "type": "youtube",
+        "urls": [
+            "https://www.youtube.com/embed/r9XeDUGHZJ0?si=SjF8vmuV8POkkSWY"
+        ]
+    }
+}
