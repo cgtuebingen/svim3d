@@ -32,7 +32,7 @@
                         {
                             "type": "plain_text",
                             "content": "Unlike prior approaches that decouple material estimation from 3D reconstruction, SViM3D is the first camera-controllable multi-view model that can produce fully spatially-varying PBR parameters, RGB color and surface normals simultaneously. The additional output can be leveraged in various applications, hence we consider SViM3D a foundational model that provides a unified neural prior for both 3D reconstruction and material understanding. SViM3D’s output can be used to relight the views directly, perform material edits or to generate full 3D assets by lifting the multi-view material parameters to 3D. As 3D training data paired with material parameters is scarce, we leverage the accumulated world knowledge of a latent video diffusion model. Specifically, we adapt"
-                        }
+                        },
                         {
                             "type": "link_text",
                             "content": "SV3D [1]",
@@ -41,7 +41,7 @@
                         {
                             "type": "plain_text",
                             "content": " a video diffusion model fine-tuned for camera-control by incorporating several crucial modifications: "
-                        },
+                        }
                     ]
                 },
                 {
@@ -73,7 +73,7 @@
                                     "content": "Adapted UNet architecture: We make crucial changes in the core architecture and training scheme to smoothly adapt from image to image+material+normal generation."
                                 }
                             ]
-                        },
+                        }
                     ]
                 },
                 {
@@ -113,7 +113,7 @@
                                 {
                                     "type": "plain_text",
                                     "content": "We reuse the pre-trained VAE to define the latent encoding for the additional material channels. The denoising Unet is fine-tuned to process the new set of in- and outputs keeping the conditioning from the video model (SV3D) intact. For efficient training we employ a staged adaption using our new material dataset and several heuristics to filter the available object data w.r.t. the material quality. "
-                                },
+                                }
                             ]
                         },
                         {
@@ -132,7 +132,7 @@
                                 {
                                     "type": "plain_text",
                                     "content": "The output videos can then be used as pseudo ground truth in a 3D optinization framework which we build on our efficient illumination representation together with our novel mechanism to improve robustness on inconcistent generations. The reconstruction includes the following steps:"
-                                },
+                                }
                             ]
                         },
                         {
@@ -173,11 +173,11 @@
                                             "content": "A mesh is finally extracted, UV unwrapped using xatlas and all textures baked."
                                         }
                                     ]
-                                },
+                                }
                             ]
-                        },
+                        }
                     ]
-                },
+                }
             ]
         },
         {
