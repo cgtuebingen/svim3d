@@ -24,10 +24,10 @@ jobs:
         runs-on: ubuntu-latest
 
         steps:
-            - uses: actions/checkout@v2
+            - uses: actions/checkout@v4
             - name: Setup Node
-              uses: actions/setup-node@v2
-            - uses: actions/cache@v2
+              uses: actions/setup-node@v4
+            - uses: actions/cache@v4
               id: cache
               with:
                   path: ./node_modules
