@@ -239,6 +239,19 @@
                         {
                             "type": "figure",
                             "id": "results_multi_view"
+                        },
+                        {
+                            "type": "text",
+                            "content": [
+                                {
+                                    "type": "plain_text",
+                                    "content": "Examples taken from the Poly Haven [2] test dataset."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "figure",
+                            "id": "results_still"
                         }
                     ]
                 },

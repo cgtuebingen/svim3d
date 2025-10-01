@@ -33,6 +33,17 @@
             "objectFit": "contain"
         }
     },
+    "results_still": {
+        "name": "Comparison",
+        "type": "image",
+        "urls": [
+            "images/mv_materials-gt_results.jpg"
+        ],
+        "styling": {
+            "roundedCorners": true,
+            "objectFit": "contain"
+        }
+    },
     "svim3d_2d_relighting": {
         "name": "Application 2D Relighting",
         "type": "video",
@@ -57,14 +68,14 @@
             "objectFit": "contain"
         }
     },
-    "shinobi_scene_material_editing": {
-        "name": "Application Material Editing",
-        "type": "swappable_video",
-        "urls": [
-            "videos/shinobi_material_editing0_v05_compressed.mp4",
-            "videos/shinobi_material_editing1_v05_compressed.mp4"
-        ]
-    },
+    // "shinobi_scene_material_editing": {
+    //     "name": "Application Material Editing",
+    //     "type": "swappable_video",
+    //     "urls": [
+    //         "videos/shinobi_material_editing0_v05_compressed.mp4",
+    //         "videos/shinobi_material_editing1_v05_compressed.mp4"
+    //     ]
+    // },
     "overview": {
         "name": "Overview",
         "type": "youtube",
