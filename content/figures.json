@@ -68,14 +68,6 @@
             "objectFit": "contain"
         }
     },
-    // "shinobi_scene_material_editing": {
-    //     "name": "Application Material Editing",
-    //     "type": "swappable_video",
-    //     "urls": [
-    //         "videos/shinobi_material_editing0_v05_compressed.mp4",
-    //         "videos/shinobi_material_editing1_v05_compressed.mp4"
-    //     ]
-    // },
     "overview": {
         "name": "Overview",
         "type": "youtube",
