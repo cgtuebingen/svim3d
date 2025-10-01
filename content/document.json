@@ -266,7 +266,7 @@
                                     "type": "plain_text",
                                     "content": "Upload your image and environment map or use one of the examples to try the PBR material generation and 2D relighting pipeline using the demo"
                                 }
-                            ],  
+                            ]
                         },
                         {
                             "type": "link_text",
@@ -280,7 +280,7 @@
                                     "type": "plain_text",
                                     "content": "."
                                 }
-                            ],  
+                            ]
                         }
                     ]
                 }
