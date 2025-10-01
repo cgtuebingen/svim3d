@@ -28,6 +28,17 @@ const Figure: FunctionComponent<FigureProps> = ({
 
 	return (
 		<div className={"pt-4"} style={{ filter: isTODO ? "blur(30px)" : "none" }}>
+			{type === "image" && (
+				<img
+					src={urls[0]}
+					alt={name || "Figure"}
+					className={`w-full ${styling?.roundedCorners ? "rounded-lg" : ""}`}
+					style={{
+						objectFit: styling?.objectFit || "contain",
+						maxHeight: styling?.maxHeight || "auto"
+					}}
+				/>
+			)}
 			{type === "video" && <Video url={urls[0]} styling={styling} />}
 			{type === "youtube" && <Youtube url={urls[0]} styling={styling} />}
 			{type === "multi_video" && <MultiVideo urls={urls} styling={styling} captions={captions} />}
