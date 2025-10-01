@@ -271,7 +271,7 @@
                         {
                             "type": "link_text",
                             "content": "here",
-                            "link": "https://huggingface.com/"
+                            "link": "https://huggingface.co/"
                         },
                         {
                             "type": "text",

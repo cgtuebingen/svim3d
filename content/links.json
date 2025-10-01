@@ -20,7 +20,7 @@
     {
         "icon": "demo",
         "name": "Demo",
-        "link": "https://huggingface.com",
+        "link": "https://huggingface.co",
         "styling": {
             "includeInHeader": true,
             "includeInStickyHeader": false
