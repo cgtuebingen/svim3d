@@ -96,7 +96,6 @@ const App = () => {
 					{document.chapters.map((chapter: ChapterNode, index: number) => (
 						<Chapter {...chapter} key={index} figures={figures} />
 					))}
-					<Relighter url="models/baldeagle.jpg" />
 
 					<Citation {...citation} />
 					<Acknowledgements {...acknowledgements} />

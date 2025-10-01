@@ -83,7 +83,7 @@ const App = () => {
 			content: [
 				{
 					type: "plain_text",
-					content: "reconstructs shape, illumination and materials from in-the-wild image collections.",
+					content: "generates multi-view consistent physically based rendering (PBR) materials from a single image.",
 				},
 			],
 		},
@@ -108,7 +108,7 @@ const App = () => {
 					<div className="pt-2">
 						{figures["teaser"] && (
 							<Figure {...figures["teaser"]}>
-								<Paragraph type={"paragraph"} name={"SHINOBI"} contents={teaserFigureText} />
+								<Paragraph type={"paragraph"} name={"SViM3D"} contents={teaserFigureText} />
 							</Figure>
 						)}
 					</div>
@@ -116,7 +116,6 @@ const App = () => {
 					{document.chapters.map((chapter: ChapterNode, index: number) => (
 						<Chapter {...chapter} key={index} figures={figures} />
 					))}
-					<RelighterR3F />
 					<Citation {...citation} />
 					<Acknowledgements {...acknowledgements} />
 					<References {...references} />

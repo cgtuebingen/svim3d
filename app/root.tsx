@@ -37,29 +37,29 @@ export default function App() {
 				{/* HTML Meta Tags */}
 				<meta
 					name="description"
-					content="Shape and Illumination using Neural Object Decomposition via BRDF Optimization In-the-wild"
+					content="Multi-view consistent physically based rendering (PBR) materials from a single image."
 				/>
 
 				{/* <!-- Facebook Meta Tags --> */}
-				<meta property="og:url" content="https://shinobi.aengelhardt.com" />
+				<meta property="og:url" content="https://svim3d.aengelhardt.com" />
 				<meta property="og:type" content="website" />
-				<meta property="og:title" content="SHINOBI" />
+				<meta property="og:title" content="SViM3D" />
 				<meta
 					property="og:description"
-					content="Shape and Illumination using Neural Object Decomposition via BRDF Optimization In-the-wild"
+					content="Stable Video Material Diffusion for Single Image 3D Generation"
 				/>
-				<meta property="og:image" content="https://shinobi.aengelhardt.com/images/preview.jpg" />
+				<meta property="og:image" content="https://svim3di.aengelhardt.com/images/preview.jpg" />
 
 				{/* <!-- Twitter Meta Tags --> */}
 				<meta name="twitter:card" content="summary_large_image" />
-				<meta property="twitter:domain" content="shinobi.aengelhardt.com" />
-				<meta property="twitter:url" content="https://shinobi.aengelhardt.com" />
-				<meta name="twitter:title" content="SHINOBI" />
+				<meta property="twitter:domain" content="svim3d.aengelhardt.com" />
+				<meta property="twitter:url" content="https://svim3d.aengelhardt.com" />
+				<meta name="twitter:title" content="SViM3D" />
 				<meta
 					name="twitter:description"
-					content="Shape and Illumination using Neural Object Decomposition via BRDF Optimization In-the-wild"
+					content="Stable Video Material Diffusion for Single Image 3D Generation"
 				/>
-				<meta name="twitter:image" content="https://shinobi.aengelhardt.com/images/preview.jpg" />
+				<meta name="twitter:image" content="https://svim3d.aengelhardt.com/images/preview.jpg" />
 
 				<link rel="icon" href="favicon.ico" />
 				<Meta />
