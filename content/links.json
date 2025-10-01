@@ -18,6 +18,15 @@
         }
     },
     {
+        "icon": "demo",
+        "name": "Demo",
+        "link": "https://huggingface.com",
+        "styling": {
+            "includeInHeader": true,
+            "includeInStickyHeader": false
+        }
+    },
+    {
         "icon": "youtube",
         "name": "Video",
         "link": "https://youtu.be/r9XeDUGHZJ0",

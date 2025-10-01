@@ -264,9 +264,23 @@
                             "content": [
                                 {
                                     "type": "plain_text",
-                                    "content": "Upload your image and environment map or use one of the examples to try the PBR material generation and 2D relighting pipeline."
+                                    "content": "Upload your image and environment map or use one of the examples to try the PBR material generation and 2D relighting pipeline using the demo"
                                 }
-                            ]
+                            ],  
+                        },
+                        {
+                            "type": "link_text",
+                            "content": "here",
+                            "link": "https://huggingface.com/"
+                        },
+                        {
+                            "type": "text",
+                            "content": [
+                                {
+                                    "type": "plain_text",
+                                    "content": "."
+                                }
+                            ],  
                         }
                     ]
                 }

@@ -16,6 +16,7 @@ interface FigureProps extends FigureNode {
 }
 
 const Figure: FunctionComponent<FigureProps> = ({
+	name,
 	urls,
 	type,
 	captions,
