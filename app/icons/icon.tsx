@@ -7,6 +7,7 @@ import CopyIcon from "./copy"
 import TwitterIcon from "./twitter"
 import BibtexIcon from "./bibtex"
 import ResultsIcon from "./results"
+import DemoIcon from "./demo"
 
 interface IconProps {
 	name: string
@@ -40,6 +41,7 @@ const Icon: FunctionComponent<IconProps> = ({ name, inverted, children, classNam
 			{name === "twitter" && <TwitterIcon />}
 			{name === "bibtex" && <BibtexIcon />}
 			{name === "results" && <ResultsIcon />}
+            {name === "demo" && <DemoIcon />}
 			{children}
 		</svg>
 	)
