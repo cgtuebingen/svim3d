@@ -28,8 +28,8 @@ const Institutions: FunctionComponent<InstitutionsProps> = ({ institutions, chil
 							<img
 								src={institution.image}
 								alt={institution.name}
-								className="w-auto h-20 object-contain"
-							/> // Adjust size as needed
+								className="w-auto h-20 object-contain dark:brightness-0 dark:invert"
+							/>
 						) : (
 							institution.name
 						)}
