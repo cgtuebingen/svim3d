@@ -2,7 +2,7 @@
     {
         "icon": "arxiv",
         "name": "Paper",
-        "link": "https://arxiv.org/abs/2401.10171",
+        "link": "http://arxiv.org/abs/2510.08271",
         "styling": {
             "includeInHeader": true,
             "includeInStickyHeader": true
@@ -19,7 +19,7 @@
     },
     {
         "icon": "demo",
-        "name": "Demo",
+        "name": "Demo (coming soon)",
         "link": "https://huggingface.co",
         "styling": {
             "includeInHeader": true,

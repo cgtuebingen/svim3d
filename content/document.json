@@ -11,7 +11,7 @@
                     "content": [
                         {
                             "type": "plain_text",
-                            "content": "We present Stable Video Materials 3D (SViM3D), a framework to predict multi-view consistent physically based rendering (PBR) materials, given a single image. Recently, video diffusion models have been successfully used to reconstruct 3D objects from a single image efficiently. However, reflectance is still represented by simple material models or needs to be estimated in additional steps to enable relighting and controlled appearance edits. We extend a latent video diffusion model to output spatially varying PBR parameters and surface normals jointly with each generated view based on explicit camera control. This unique setup allows for relighting and generating a 3D asset using our model as neural prior. We introduce various mechanisms to this pipeline that improve quality in this ill-posed setting. We show state-of-the-art relighting and novel view synthesis performance on multiple object-centric datasets. Our method generalizes to diverse inputs, enabling the generation of relightable 3D assets useful in AR/VR, movies, games and other visual media."
+                            "content": "We present Stable Video Materials 3D (SViM3D), a framework to predict multi-view consistent physically based rendering (PBR) materials, given a single image. Recently, video diffusion models have been successfully used to reconstruct 3D objects from a single image efficiently. However, reflectance is still represented by simple material models or needs to be estimated in additional steps to enable relighting and controlled appearance edits. We extend a latent video diffusion model to output spatially varying PBR parameters and surface normals jointly with each generated view based on explicit camera control. This unique setup allows for relighting and generating a 3D asset using our model as neural prior. We introduce various mechanisms to this pipeline that improve quality in this ill-posed setting. We show state-of-the-art relighting and novel view synthesis performance on multiple object-centric datasets."
                         }
                     ]
                 }
@@ -265,17 +265,12 @@
                                 {
                                     "type": "plain_text",
                                     "content": "Upload your image and environment map or use one of the examples to try the PBR material generation and 2D relighting pipeline using the demo"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "link_text",
-                            "content": "here",
-                            "link": "https://huggingface.co/"
-                        },
-                        {
-                            "type": "text",
-                            "content": [
+                                },
+                                {
+                                    "type": "link_text",
+                                    "content": "here",
+                                    "link": "https://huggingface.co/"
+                                },
                                 {
                                     "type": "plain_text",
                                     "content": "."
