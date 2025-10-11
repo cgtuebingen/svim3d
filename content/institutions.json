@@ -8,5 +8,10 @@
         "name": "Stability AI",
         "link": "https://stability.ai",
         "image": "images/stability_logo_alpha.png"
+    },
+    {
+        "name": "ICCV 2025",
+        "link": "https://iccv.thecvf.com/virtual/2025/poster/2221",
+        "image": "images/iccv25_logo.png"
     }
 ]
